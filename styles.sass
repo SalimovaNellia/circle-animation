@@ -1,7 +1,12 @@
+.animation-wrap
+  position: relative
+  width: 390px
+  margin: 100px auto
+
 .circle
   position: absolute
-  width: 20px
-  height: 20px
+  width: 40px
+  height: 40px
   border-radius: 100%
   background-color: #FFFD82
   animation: move-the-circle 1s infinite
@@ -10,7 +15,7 @@
 
 @for $i from 1 through 8
   .circle:nth-child(#{$i})
-    left: ($i - 1) * 30px
+    left: ($i - 1) * 50px
     animation-delay: $i * .1s
 
 

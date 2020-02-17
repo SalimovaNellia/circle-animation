@@ -1,7 +1,13 @@
+.animation-wrap {
+  position: relative;
+  width: 390px;
+  margin: 100px auto;
+}
+
 .circle {
   position: absolute;
-  width: 20px;
-  height: 20px;
+  width: 40px;
+  height: 40px;
   border-radius: 100%;
   background-color: #FFFD82;
   animation: move-the-circle 1s infinite;
@@ -14,37 +20,37 @@
 }
 
 .circle:nth-child(2) {
-  left: 30px;
+  left: 50px;
   animation-delay: 0.2s;
 }
 
 .circle:nth-child(3) {
-  left: 60px;
+  left: 100px;
   animation-delay: 0.3s;
 }
 
 .circle:nth-child(4) {
-  left: 90px;
+  left: 150px;
   animation-delay: 0.4s;
 }
 
 .circle:nth-child(5) {
-  left: 120px;
+  left: 200px;
   animation-delay: 0.5s;
 }
 
 .circle:nth-child(6) {
-  left: 150px;
+  left: 250px;
   animation-delay: 0.6s;
 }
 
 .circle:nth-child(7) {
-  left: 180px;
+  left: 300px;
   animation-delay: 0.7s;
 }
 
 .circle:nth-child(8) {
-  left: 210px;
+  left: 350px;
   animation-delay: 0.8s;
 }
 
