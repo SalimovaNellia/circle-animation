@@ -1,0 +1,7 @@
+Cool animations using HTML and CSS
+
+![Image alt](https://github.com/SalimovaNellia/circle-animation/master/circle-animation.gif)
+
+CSS keyframes, animation delays, and CSS transforms
+
+
